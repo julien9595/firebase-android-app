@@ -1,0 +1,4 @@
+#Mon Nov 06 13:50:42 CET 2017
+base.0=/home/eisti/Projects/Firebase/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/home/eisti/Projects/Firebase/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

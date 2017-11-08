@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/home/eisti/.android/build-cache/379e84e440f7a078201d3ba780970147b0ec80cc/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/eisti/.android/build-cache/379e84e440f7a078201d3ba780970147b0ec80cc/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/eisti/.android/build-cache/6ec447ca444fbb1ce4e963159c43b1b00a61fed7/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/home/eisti/.android/build-cache/cb20a3111be9ff5a6db8a09d9807e099ab673870/output/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/eisti/.android/build-cache/379e84e440f7a078201d3ba780970147b0ec80cc/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/eisti/.android/build-cache/cb20a3111be9ff5a6db8a09d9807e099ab673870/output/res/color/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    }
+]
