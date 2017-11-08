@@ -1,10 +1,18 @@
 [
     {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
         "source": "/home/eisti/Projects/Firebase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/home/eisti/Projects/Firebase/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     }
 ]

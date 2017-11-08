@@ -1,11 +1,19 @@
 [
     {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
@@ -16,6 +24,10 @@
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
@@ -24,16 +36,40 @@
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color-v23/abc_tint_default.xml"
     },
     {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
         "source": "/home/eisti/.android/build-cache/6ec447ca444fbb1ce4e963159c43b1b00a61fed7/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",

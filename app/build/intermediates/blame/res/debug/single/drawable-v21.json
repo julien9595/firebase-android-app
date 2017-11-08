@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/eisti/.android/build-cache/06df89b81041fbd21a6289ccf9b17ef3098e8ff2/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
         "source": "/home/eisti/.android/build-cache/8588aef7613ab863ddbca6398e86a7c41555cc24/output/res/drawable-v21/notification_action_background.xml"
     },
@@ -14,5 +22,13 @@
     {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     }
 ]

@@ -72,6 +72,13 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/buttonDeleteProfile"
+        android:layout_marginBottom="15dp"
+        android:text="@string/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
         android:id="@+id/buttonLogOut"
         android:text="@string/logout"
         android:layout_width="match_parent"

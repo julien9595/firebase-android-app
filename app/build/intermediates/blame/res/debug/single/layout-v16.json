@@ -2,5 +2,9 @@
     {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/home/eisti/.android/build-cache/8588aef7613ab863ddbca6398e86a7c41555cc24/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/home/eisti/.android/build-cache/06df89b81041fbd21a6289ccf9b17ef3098e8ff2/output/res/layout-v16/notification_template_custom_big.xml"
     }
 ]

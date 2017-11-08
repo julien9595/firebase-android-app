@@ -6,5 +6,13 @@
     {
         "merged": "/home/eisti/Projects/Firebase/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/home/eisti/.android/build-cache/d5b9f8413fca9f79e9a935ce8c52683b34e3e758/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/eisti/.android/build-cache/fdd225a3d6e154180ac09d7cb95e98fae4cf6117/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]
