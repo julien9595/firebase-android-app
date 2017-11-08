@@ -10,6 +10,7 @@
     <string name="goToRegister">Not have an account ? Register here</string>
     <string name="logout">Log Out</string>
     <string name="save">Save</string>
+    <string name="delete">Delete</string>
     <string name="yourInfos">Your infos</string>
     <string name="yourName">Your name : </string>
     <string name="yourAddress">Your address : </string>
