@@ -12,7 +12,8 @@
     <string name="save">Save</string>
     <string name="delete">Delete</string>
     <string name="yourInfos">Your infos</string>
-    <string name="yourName">Your name : </string>
-    <string name="yourAddress">Your address : </string>
+    <string name="yourName">Your name</string>
+    <string name="yourAddress">Your address</string>
     <string name="welcome">Welcome</string>
+    <string name="inFirebase">In Firebase: </string>
 </resources>
