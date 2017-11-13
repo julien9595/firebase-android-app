@@ -1,4 +1,0 @@
-#Wed Nov 08 11:48:40 CET 2017
-base.0=/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/eisti/dev/java/eisti.fr/firebase-android-app/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

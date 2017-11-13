@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Firebase is life</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body style="background: white url(firebase.svg) no-repeat center 200px;"">
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div class="navbar-brand">Firebase is life</div>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href=""></a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+
+<h1>C'est pas incroyable ca ?</h1>
+<form onsubmit="showresult(); return false;" class="form-horizontal well col-sm-4">
+	<div class="form-group">
+		<label for="chck_yes" class="col-sm-1">oui</label>
+		<input id="chck_yes" class="col-sm-2" type="radio" name="incroyable" checked class="form-control">
+	</div>
+	
+	<div class="form-group">
+		<label for="chck_no" class="col-sm-1">bof</label>
+		<input id="chck_no" class="col-sm-2" type="radio" name="incroyable" class="form-control">
+	</div>
+	
+	<div class="form-group">
+		<input type="submit" name="submit" value="Envoyer" class="form-control">
+	</div>
+
+	<div id="super" class="alert alert-success" style="display: none">
+		<strong>Super !</strong> Tu l'as dit bouffi !
+	</div>
+
+	<div id="not_super" class="alert alert-danger" style="display: none">
+		<strong>Pas cool !</strong> Si si je t'assure c'est incroyable !
+	</div>
+
+</form>
+
+</div>
+
+<script type="text/javascript">
+	function showresult() {
+		if(document.getElementById("chck_yes").checked) {
+			document.getElementById("super").style.display = "block";
+			document.getElementById("not_super").style.display = "none";
+		} else {
+			document.getElementById("super").style.display = "none";
+			document.getElementById("not_super").style.display = "block";
+		}
+	}
+
+</script>
+
+</body>
+</html>
