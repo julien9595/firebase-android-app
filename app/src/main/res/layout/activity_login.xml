@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,69 +9,33 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="eisti.firebase.MainActivity">
+    tools:context="eisti.firebase.LoginActivity">
 
-    <LinearLayout
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
+    <FrameLayout
+        android:id="@+id/emailSignInFragment"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
-            android:textAppearance="?android:textAppearanceLarge"
-            android:text="@string/signIn"
-            android:layout_gravity="center_horizontal"/>
-
-        <EditText
-            android:layout_margin="15dp"
-            android:inputType="textEmailAddress"
-            android:hint="@string/email"
-            android:id="@+id/editTextEmailSignIn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:layout_margin="15dp"
-
-            android:inputType="textPassword"
-            android:hint="@string/password"
-            android:id="@+id/editTextPasswordSignIn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:layout_margin="15dp"
-
-            android:id="@+id/buttonSignIn"
-            android:text="@string/signIn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:textAlignment="center"
-            android:text="@string/goToRegister"
-            android:id="@+id/textViewSignUp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/googleSignIn"
+    <FrameLayout
+        android:id="@+id/googleSignInFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="13dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"/>
-</RelativeLayout>
+        app:layout_constraintTop_toBottomOf="@+id/emailSignInFragment"
+        app:layout_constraintVertical_bias="0.32999998"/>
+
+</android.support.constraint.ConstraintLayout>
