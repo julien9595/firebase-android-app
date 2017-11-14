@@ -28,7 +28,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.GoogleAuthProvider;
 
-import eisti.firebase.MainActivity;
+import eisti.firebase.ProfileActivity;
 import eisti.firebase.R;
 
 /**
@@ -128,7 +128,7 @@ public class GoogleSigninFragment extends Fragment implements View.OnClickListen
                         hideProgressDialog();
                         if (task.isSuccessful()) {
                             activity.finish();
-                            startActivity(new Intent(activity, MainActivity.class));
+                            startActivity(new Intent(activity, ProfileActivity.class));
                         } else {
                             Toast.makeText(activity, "Auth failed", Toast.LENGTH_SHORT).show();
                         }

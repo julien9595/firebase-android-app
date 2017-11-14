@@ -1,4 +1,4 @@
-package eisti.firebase;
+package eisti.firebase.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import eisti.firebase.ProfileActivity;
+import eisti.firebase.R;
 import eisti.firebase.fragment.EmailSigninFragment;
 import eisti.firebase.fragment.GoogleSigninFragment;
 
