@@ -49,7 +49,7 @@ public class ProfileImageFragment extends Fragment implements View.OnClickListen
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_emailsignin, container, false);
+        View view = inflater.inflate(R.layout.fragment_profileimage, container, false);
 
         this.activity = getActivity();
 
@@ -58,7 +58,7 @@ public class ProfileImageFragment extends Fragment implements View.OnClickListen
         this.btnProfilePic.setOnClickListener(this);
 
         // DELETE START
-        imageReference = FirebaseStorage.getInstance().getReference().child("images").child(FirebaseAuth.getInstance().getUid());
+        imageReference = FirebaseStorage.getInstance().getReference().child("images").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
         // DELETE END
 
         return view;
@@ -97,19 +97,17 @@ public class ProfileImageFragment extends Fragment implements View.OnClickListen
                 uploadTask.addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception exception) {
-                        Toast.makeText(activity, exception.getMessage(), Toast.LENGTH_SHORT).show();
-                        exception.printStackTrace();
+                        Toast.makeText(activity.getApplicationContext(), exception.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        Toast.makeText(activity, "Upload successful", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity.getApplicationContext(), "Upload successful", Toast.LENGTH_SHORT).show();
                         loadImage();
                     }
                 });
             } catch (Exception e) {
-                Toast.makeText(activity, e.getMessage(), Toast.LENGTH_SHORT).show();
-                e.printStackTrace();
+                Toast.makeText(activity.getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
             }
             // DELETE END
         }

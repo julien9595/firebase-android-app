@@ -3,7 +3,7 @@
     <string name="email">Enter your email</string>
     <string name="password">Enter your password</string>
     <string name="name">Enter your name</string>
-    <string name="address">Enter your address</string>
+    <string name="cbCode">Enter your cbCode</string>
     <string name="register">Register</string>
     <string name="signIn">Sign In</string>
     <string name="goToSignIn">Already registered ? Sign in here</string>
@@ -13,7 +13,7 @@
     <string name="delete">Delete</string>
     <string name="yourInfos">Your infos</string>
     <string name="yourName">Your name</string>
-    <string name="yourAddress">Your address</string>
+    <string name="yourAddress">Your cbCode</string>
     <string name="welcome">Welcome</string>
     <string name="inFirebase">In Firebase: </string>
 </resources>

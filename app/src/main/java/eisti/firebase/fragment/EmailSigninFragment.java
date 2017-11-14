@@ -20,7 +20,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import eisti.firebase.ProfileActivity;
+import eisti.firebase.activity.ProfileActivity;
 import eisti.firebase.R;
 
 /**
@@ -52,8 +52,8 @@ public class EmailSigninFragment extends Fragment implements View.OnClickListene
 
         this.activity = getActivity();
 
-        this.edtEmail = view.findViewById(R.id.editTextEmail);
-        this.edtPassword = view.findViewById(R.id.editTextPassword);
+        this.edtEmail = view.findViewById(R.id.editTextEmailSignIn);
+        this.edtPassword = view.findViewById(R.id.editTextPasswordSignIn);
         this.btnSignIn = view.findViewById(R.id.buttonSignIn);
         this.btnSignIn.setOnClickListener(this);
         this.btnSignUp = view.findViewById(R.id.buttonSignUp);
@@ -90,7 +90,6 @@ public class EmailSigninFragment extends Fragment implements View.OnClickListene
                         hideProgressDialog();
                         if (task.isSuccessful()) {
                             startActivity(new Intent(activity, ProfileActivity.class));
-                            activity.finish();
                         } else {
                             Toast.makeText(activity, "Couldn't sign in, please try again", Toast.LENGTH_SHORT).show();
                         }
@@ -115,7 +114,6 @@ public class EmailSigninFragment extends Fragment implements View.OnClickListene
 
                         if (task.isSuccessful()) {
                             startActivity(new Intent(activity, ProfileActivity.class));
-                            activity.finish();
                         } else {
                             Toast.makeText(activity, "Couldn't register, please try again", Toast.LENGTH_SHORT).show();
                         }

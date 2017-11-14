@@ -15,126 +15,19 @@
     android:paddingTop="16dp"
     tools:context="eisti.firebase.MainActivity">
 
-    <TextView
-        android:id="@+id/textViewProfile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="25dp"
-        android:layout_weight="1"
-        android:text="Text"
-        android:textAppearance="?android:textAppearanceLarge"/>
-
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/profileInfosFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:layout_weight="1">
 
-        <EditText
-            android:id="@+id/editTextNameProfile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:layout_weight="1"
-            android:hint="@string/name"
-            android:inputType="text"/>
+    </FrameLayout>
 
-        <EditText
-            android:id="@+id/editTextAddressProfile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:layout_weight="1"
-            android:hint="@string/address"
-            android:inputType="text"/>
-    </LinearLayout>
-
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/profilePicFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:layout_weight="2">
 
-        <TextView
-            android:id="@+id/textViewInfosProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="25dp"
-            android:layout_weight="1"
-            android:text="@string/inFirebase"
-            android:textAppearance="?android:textAppearanceMedium"/>
-
-        <TextView
-            android:id="@+id/textViewNameProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="25dp"
-            android:layout_weight="1"
-            android:text="@string/inFirebase"
-            android:textAppearance="?android:textAppearanceMedium"/>
-
-        <TextView
-            android:id="@+id/textViewAddressProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="25dp"
-            android:layout_weight="1"
-            android:text="@string/yourAddress"
-            android:textAppearance="?android:textAppearanceMedium"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="4"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Upload"/>
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="10"
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/buttonLogOut"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/logout"/>
-
-        <Button
-            android:id="@+id/buttonDeleteProfile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:layout_weight="1"
-            android:text="@string/delete"/>
-
-        <Button
-            android:id="@+id/buttonSaveProfile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:layout_weight="1"
-            android:text="@string/save"/>
-    </LinearLayout>
-
+    </FrameLayout>
 </LinearLayout>

@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import eisti.firebase.ProfileActivity;
 import eisti.firebase.R;
 import eisti.firebase.fragment.EmailSigninFragment;
 import eisti.firebase.fragment.GoogleSigninFragment;
@@ -21,7 +20,6 @@ public class LoginActivity extends AppCompatActivity {
 
         if (FirebaseAuth.getInstance().getCurrentUser() != null) {
             startActivity(new Intent(this, ProfileActivity.class));
-            finish();
             return;
         }
 

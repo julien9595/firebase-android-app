@@ -12,13 +12,12 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="eisti.firebase.ProfileActivity">
+    tools:context="eisti.firebase.activity.ProfileActivity">
 
     <Button
         android:id="@+id/btnUploadProfilePic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:text="Upload ..."/>
 
     <ImageView

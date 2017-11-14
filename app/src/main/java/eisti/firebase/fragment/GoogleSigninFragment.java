@@ -3,7 +3,6 @@ package eisti.firebase.fragment;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -28,7 +27,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.GoogleAuthProvider;
 
-import eisti.firebase.ProfileActivity;
+import eisti.firebase.activity.ProfileActivity;
 import eisti.firebase.R;
 
 /**
@@ -112,7 +111,7 @@ public class GoogleSigninFragment extends Fragment implements View.OnClickListen
                 firebaseAuthWithGoogle(acct);
             } else {
                 hideProgressDialog();
-                Toast.makeText(activity, result.getStatus().toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity, result.getStatus().getStatusMessage(), Toast.LENGTH_SHORT).show();
             }
             // DELETE END
         }
@@ -127,10 +126,9 @@ public class GoogleSigninFragment extends Fragment implements View.OnClickListen
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         hideProgressDialog();
                         if (task.isSuccessful()) {
-                            activity.finish();
                             startActivity(new Intent(activity, ProfileActivity.class));
                         } else {
-                            Toast.makeText(activity, "Auth failed", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(activity.getApplicationContext(), "Google Auth failed", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

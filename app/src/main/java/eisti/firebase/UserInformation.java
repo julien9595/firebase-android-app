@@ -3,15 +3,15 @@ package eisti.firebase;
 public class UserInformation {
 
     private String name;
-    private String address;
+    private int cbCode;
 
     public UserInformation() {
 
     }
 
-    public UserInformation(String name, String address) {
+    public UserInformation(String name, int cbCode) {
         this.name = name;
-        this.address = address;
+        this.cbCode = cbCode;
     }
 
     public String getName() {
@@ -22,11 +22,11 @@ public class UserInformation {
         this.name = name;
     }
 
-    public String getAddress() {
-        return address;
+    public int getCbCode() {
+        return cbCode;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setCbCode(int cbCode) {
+        this.cbCode = cbCode;
     }
 }
