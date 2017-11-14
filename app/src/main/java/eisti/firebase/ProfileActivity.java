@@ -199,7 +199,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
     private void loadImage() {
         // Comment faire de base
-
+/*
         final long ONE_MEGABYTE = 1024 * 1024;
         imageReference.getBytes(ONE_MEGABYTE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
             @Override
@@ -212,7 +212,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                 // Handle any errors
             }
         });
-
+*/
 
         // SPECIAL pour les images
         Glide.with(this.getApplicationContext())
