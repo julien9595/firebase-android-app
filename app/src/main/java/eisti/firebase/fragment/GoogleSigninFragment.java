@@ -111,7 +111,7 @@ public class GoogleSigninFragment extends Fragment implements View.OnClickListen
                 firebaseAuthWithGoogle(acct);
             } else {
                 hideProgressDialog();
-                Toast.makeText(activity, result.getStatus().getStatusMessage(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity.getApplicationContext(), result.getStatus().toString(), Toast.LENGTH_SHORT).show();
             }
             // DELETE END
         }
