@@ -10,7 +10,6 @@ import eisti.firebase.R;
 import eisti.firebase.fragment.EmailSigninFragment;
 import eisti.firebase.fragment.GoogleSigninFragment;
 
-
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -18,15 +17,15 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
-            startActivity(new Intent(this, ProfileActivity.class));
-            return;
-        }
-
         getFragmentManager().beginTransaction()
                 .add(R.id.emailSignInFragment, EmailSigninFragment.newInstance())
                 .add(R.id.googleSignInFragment, GoogleSigninFragment.newInstance())
                 .commit();
+
+        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
+            startActivity(new Intent(this, ProfileActivity.class));
+            return;
+        }
     }
 
 

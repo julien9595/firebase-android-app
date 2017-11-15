@@ -16,14 +16,14 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        if (FirebaseAuth.getInstance().getCurrentUser() == null) {
-            finish();
-            return;
-        }
-
         getFragmentManager().beginTransaction()
                 .add(R.id.profileInfosFragment, ProfileInfosFragment.newInstance())
                 .add(R.id.profilePicFragment, ProfileImageFragment.newInstance())
                 .commit();
+
+        if (FirebaseAuth.getInstance().getCurrentUser() == null) {
+            finish();
+            return;
+        }
     }
 }
