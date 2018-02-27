@@ -21,12 +21,13 @@ public class LoginActivity extends AppCompatActivity {
                 .add(R.id.emailSignInFragment, EmailSigninFragment.newInstance())
                 .add(R.id.googleSignInFragment, GoogleSigninFragment.newInstance())
                 .commit();
-
-        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
-            startActivity(new Intent(this, ProfileActivity.class));
-            return;
-        }
     }
 
-
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
+            startActivity(new Intent(this, ProfileActivity.class));
+        }
+    }
 }

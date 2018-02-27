@@ -20,10 +20,13 @@ public class ProfileActivity extends AppCompatActivity {
                 .add(R.id.profileInfosFragment, ProfileInfosFragment.newInstance())
                 .add(R.id.profilePicFragment, ProfileImageFragment.newInstance())
                 .commit();
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
         if (FirebaseAuth.getInstance().getCurrentUser() == null) {
             finish();
-            return;
         }
     }
 }
